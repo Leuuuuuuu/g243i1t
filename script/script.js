@@ -1,5 +1,5 @@
 function aperte(){
     while(true){
-    alert("Você aceita Satã?");
+    alert("Você aceita Satã?")
     }
 }
