@@ -1,9 +1,80 @@
-.btn {
-    background-color: #fff676;
+.botao {
+    margin-top: 20%;
+    background-color: #dfcd6a;
     color: black;
     font-size: 64px;
+    width: 80%;
+    font-size: 40px;
+}
+
+.conteudo{
+    text-align: center;
 }
 
 body {
-    background-color: #fdf9c4;
+    background-color: #ffffff;
+}
+
+.barra{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.mobile{
+    font-size: 50px;
+    color:rgb(161, 38, 0);
+}
+
+.tablet{
+    display: none;
+}
+
+.desktop{
+    display: none;
+}
+
+@media (min-width:800px) {
+    .barra{
+        background-color: rgb(161, 38, 0);
+        height: 80px;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: inline;
+        font-size: 55px;
+        color: black;
+    }
+    .botao{
+        margin-top: 0;
+        width: 70px;
+        font-size: 16px;
+    }
+    .conteudo{
+        text-align: right;
+    }
+}
+
+@media (min-width: 1228px) {
+    .barra{
+        background-color: lightblue;
+        height: 120px;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+        font-size: 70px;
+        color: coral;
+    }
+    .conteudo{
+        text-align: left;
+    }
 }
