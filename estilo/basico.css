@@ -1,10 +1,56 @@
 .botao {
-    margin-top: 20%;
     background-color: #dfcd6a;
     color: black;
-    font-size: 64px;
-    width: 80%;
-    font-size: 40px;
+    width: 100%;
+    font-size: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.aba{
+    width: 100%;
+    height: 400px;
+}
+
+#aba1{
+    background-color: #A5E1E9;
+    font-size: 26px;
+}
+#aba2{
+    background-color: #D5ED89;
+    font-size: 26px;
+}
+#aba3{
+    background-color: #FCE8A5;
+    font-size: 26px;
+}
+#aba4{
+    background-color: #FFC296;
+    font-size: 26px;
+}
+#aba5{
+    background-color: #F8CADC;
+    font-size: 26px;
+}
+#btn1{
+    background-color: #A5E1E9;
+    font-size: 26px;
+}
+#btn2{
+    background-color: #D5ED89;
+    font-size: 26px;
+}
+#btn3{
+    background-color: #FCE8A5;
+    font-size: 26px;
+}
+#btn4{
+    background-color: #FFC296;
+    font-size: 26px;
+}
+#btn5{
+    background-color: #F8CADC;
+    font-size: 26px;
 }
 
 .conteudo{
@@ -52,16 +98,22 @@ body {
         color: black;
     }
     .botao{
-        margin-top: 0;
-        width: 70px;
-        font-size: 16px;
+        width: 19%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 0%;
     }
     .conteudo{
-        text-align: right;
+        text-align: center;
+        width: 100%;
     }
 }
 
 @media (min-width: 1228px) {
+    .botao{
+        width: 100%;
+        margin-top: 0%;
+    }
     .barra{
         background-color: lightblue;
         height: 120px;
@@ -75,6 +127,7 @@ body {
         color: coral;
     }
     .conteudo{
-        text-align: left;
+        text-align: center;
+        width: 100%;
     }
 }
